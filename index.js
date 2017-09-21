@@ -96,8 +96,8 @@ var j = schedule.scheduleJob(rule, function(){
             console.log(err);
         }
         else {
-            console.log('start schedul111e!!!');
-            //filterSlave(rows);
+            //console.log('start schedul111e!!!');
+            filterSlave(rows);
         }
     });
 
